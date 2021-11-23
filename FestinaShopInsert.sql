@@ -25,16 +25,11 @@ create table narudzba(
     sifra int not null primary key auto_increment,
     kupac int not null,
     proizvod int not null,
-    cijena decimal(18,2)
-);
-
-create table posiljka(
-    sifra int not null primary key auto_increment,
-    narudzba int not null,
-    datumivrijemenaplate datetime,
+    cijena decimal(18,2),
     datumivrijemepakiranja datetime,
     datumivrijemeotpreme datetime
 );
+
 
 
 alter table proizvod add foreign key(kupac) references kupac(sifra);
@@ -42,7 +37,7 @@ alter table proizvod add foreign key(kupac) references kupac(sifra);
 alter table narudzba add foreign key proizvod(sifra) references proizvod(sifra);
 alter table narudzba add foreign key kupac(sifra) references kupac(sifra);
 
-alter table posiljka add foreign key narudzba(sifra) references narudzba(sifra);
+
 
 
 
