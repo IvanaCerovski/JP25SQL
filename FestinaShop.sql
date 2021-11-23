@@ -42,6 +42,8 @@ create table narudzba(
 );
 
 
+alter table kupac_proizvod add foreign key(kupac) references kupac(sifra);
+alter table kupac_proizvod add foreign key(proizvod) references proizvod(sifra);
 
 
 
