@@ -28,6 +28,7 @@ create table kupac_proizvod(
 
 create table proizvod_narudzba(
     sifra int not null primary key,
+    kupac int,
     proizvod int,
     narudzba int 
 );
@@ -44,6 +45,9 @@ create table narudzba(
 
 alter table kupac_proizvod add foreign key(kupac) references kupac(sifra);
 alter table kupac_proizvod add foreign key(proizvod) references proizvod(sifra);
+alter table proizvod_narudzba add foreign key(narudzba) references narudzba(sifra);
+alter table proizvod_narudzba add foreign key(proizvod) references proizvod(sifra);
+alter table narudzba add foreign key(kupac) references kupac(sifra);
 
 
 
