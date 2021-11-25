@@ -20,12 +20,6 @@ create table proizvod(
     cijena decimal(18,2) 
 );
 
-create table kupac_proizvod(
-    sifra int not null primary key auto_increment,
-    kupac int,
-    proizvod int
-);
-
 create table proizvod_narudzba(
     sifra int not null primary key,
     kupac int,
@@ -43,11 +37,13 @@ create table narudzba(
 );
 
 
-alter table kupac_proizvod add foreign key(kupac) references kupac(sifra);
-alter table kupac_proizvod add foreign key(proizvod) references proizvod(sifra);
+
 alter table proizvod_narudzba add foreign key(narudzba) references narudzba(sifra);
 alter table proizvod_narudzba add foreign key(proizvod) references proizvod(sifra);
 alter table narudzba add foreign key(kupac) references kupac(sifra);
+
+
+
 
 
 
