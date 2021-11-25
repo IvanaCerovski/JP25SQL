@@ -29,11 +29,10 @@ create table proizvod_narudzba(
 
 create table narudzba(
     sifra int not null primary key auto_increment,
+    brojnarudzbe char(9),
     kupac int not null,
-    proizvod int not null,
-    cijena decimal(18,2),
-    datumivrijemepakiranja datetime,
-    datumivrijemeotpreme datetime
+    datumpakiranja date,
+    datumotpreme date
 );
 
 
