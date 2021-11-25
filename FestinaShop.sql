@@ -49,6 +49,17 @@ insert into kupac(sifra,ime,prezime,brojtelefona,email,ulicaikucnibroj,mjesto,po
 
 
 
+select * from proizvod;
+insert into proizvod(sifra,naziv,cijena) values
+(null,'Festina Chrono Bike 2021 F20543/1',1690.00),
+(null,'Festina Chrono Bike 2021 F20543/2',1690.00),
+(null,'Festina Chrono Bike 2021 F20543/3',1690.00),
+(null,'Festina Chrono Bike 2021 F20543/4',1690.00);
+
+delete from proizvod where sifra > 4;
+
+
+
 
 
 
