@@ -42,6 +42,12 @@ alter table proizvod_narudzba add foreign key(proizvod) references proizvod(sifr
 alter table narudzba add foreign key(kupac) references kupac(sifra);
 
 
+insert into kupac(sifra,ime,prezime,brojtelefona,email,ulicaikucnibroj,mjesto,postanskibroj) values
+(null,'Abby','Wambach','0951115341','abby.wambach20@gmail.com','Braće Radić 20','Osijek','31000'),
+(null,'Nada','Bešker','0954908553','nada.besker@gmail.com','Ulica Pobjede 12','Laslovo','31207'),
+(null,'Tobin','Heath','0956502361','tobin.heath17@gmail.com','Vukovarska 31', 'Osijek','31000');
+
+
 
 
 
