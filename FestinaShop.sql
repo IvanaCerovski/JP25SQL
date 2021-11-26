@@ -58,6 +58,13 @@ insert into proizvod(sifra,naziv,cijena) values
 
 delete from proizvod where sifra > 4;
 
+select * from kupac;
+
+insert into kupac(ime,prezime,brojtelefona,email,ulicaikucnibroj,mjesto,postanskibroj) values
+('Hope','Solo','0951893866','hope.solo1@gmail.com','Trg Bana Josipa Jelačića 25','Zagreb','10000'),
+('Samantha','Kerr','0954395996','sam.kerr20@gmail.com','Petrove Gore 8','Pula','52100'),
+('Dubravka','Lišnić','0952770032','lisnic.dubravka4@gmail.com','Ulica Pobjede 34','Laslovo','31207');
+
 
 
 
