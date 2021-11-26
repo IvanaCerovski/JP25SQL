@@ -65,6 +65,17 @@ insert into kupac(ime,prezime,brojtelefona,email,ulicaikucnibroj,mjesto,postansk
 ('Samantha','Kerr','0954395996','sam.kerr20@gmail.com','Petrove Gore 8','Pula','52100'),
 ('Dubravka','Lišnić','0952770032','lisnic.dubravka4@gmail.com','Ulica Pobjede 34','Laslovo','31207');
 
+select * from proizvod;
+insert into proizvod(sifra,naziv,cijena) values
+(null,'Festina Chrono Bike 2021 F20544/1','1630.00'),
+(null,'Festina Chrono Bike 2021 F20544/2','1630.00'),
+(null,'Festina Chrono Bike 2021 F20544/3','1630.00'),
+(null,'Festina Chrono Bike 2021 F20544/4','1630.00'),
+(null,'Festina Chrono Bike 2021 F20544/5','1630.00'),
+(null,'Festina Chrono Bike 2021 F20544/6','1630.00'),
+(null,'Festina Chrono Bike 2021 F20544/7','1630.00'),
+(null,'Festina Chrono Bike 2021 F20544/8','1630.00');
+
 
 
 
