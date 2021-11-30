@@ -104,6 +104,11 @@ values
 (null, 'Festina Automatico F20536/3',2250.00),
 (null,'Festina Automatico F20536/1',2250.00);
 
+insert into kupac(ime,prezime,brojtelefona,email,ulicaikucnibroj,mjesto,postanskibroj)
+values
+('Ivan','Pavičić','0954500521','ivan.pavicic@gmail.com','Alojzija Stepinca 42','Osijek',31000),
+('Danijel','Majer','0954478649','danijel.majer@gmail.com','Ružina ulica 67','Osijek',31000);
+
 
 
 
