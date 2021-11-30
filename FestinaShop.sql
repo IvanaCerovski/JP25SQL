@@ -23,7 +23,9 @@ create table proizvod(
 create table proizvod_narudzba(
     sifra int not null primary key,
     proizvod int,
-    narudzba int 
+    narudzba int,
+    kolicina int,
+    cijena decimal(18,2)
 );
 
 create table narudzba(
