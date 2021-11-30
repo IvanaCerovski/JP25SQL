@@ -22,7 +22,6 @@ create table proizvod(
 
 create table proizvod_narudzba(
     sifra int not null primary key,
-    kupac int,
     proizvod int,
     narudzba int 
 );
