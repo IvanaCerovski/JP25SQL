@@ -95,6 +95,15 @@ values
 (null,'Festina Chrono Bike 2021 F20545/1',3600.00),
 (null,'Festina Chrono Bike Special Edition F20203/1',4420.00);
 
+insert into proizvod(sifra,naziv,cijena)
+values
+(null,'Festina Chrono Dual Time F20442/1',2710.00),
+(null,'Festina Chrono Dual Time F20481/1',2710.00),
+(null,'Festina Chrono Dual Time F20443/1',2710.00),
+(null,'Festina Automatico F20536/4',2250.00),
+(null, 'Festina Automatico F20536/3',2250.00),
+(null,'Festina Automatico F20536/1',2250.00);
+
 
 
 
