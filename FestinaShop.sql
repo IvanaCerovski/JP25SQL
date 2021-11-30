@@ -84,7 +84,16 @@ values('Sanda','Mucić','0957917841','sanda.mucic@gmail.com','Kolodvorska 16','A
 ('Marija','Rogić','0958345239','rogic.marija@gmail.com','Franje Krežme 3','Rijeka',51000);
 
 
-
+insert into proizvod(sifra,naziv,cijena)
+values
+(null,'Festina Chrono Bike Limited Edition F20453/1',4070.00),
+(null,'Festina Chrono Bike Special Edition F20329/1',4020.00),
+(null,'Festina Chrono Bike Limited Edition F20527/1',3780.00),
+(null,'Festina Chrono Bike 2021 F20549/1',3600.00),
+(null,'Festina Chrono Bike 2021 F20458/1',3600.00),
+(null,'Festina Chrono Bike 2021 F20457/1',3600.00),
+(null,'Festina Chrono Bike 2021 F20545/1',3600.00),
+(null,'Festina Chrono Bike Special Edition F20203/1',4420.00);
 
 
 
