@@ -77,6 +77,12 @@ insert into proizvod(sifra,naziv,cijena) values
 (null,'Festina Chrono Bike 2021 F20544/7','1630.00'),
 (null,'Festina Chrono Bike 2021 F20544/8','1630.00');
 
+describe kupac;
+select * from kupac;
+insert into kupac(ime,prezime,brojtelefona,email,ulicaikucnibroj,mjesto,postanskibroj)
+values('Sanda','Mucić','0957917841','sanda.mucic@gmail.com','Kolodvorska 16','Antunovac',31216),
+('Marija','Rogić','0958345239','rogic.marija@gmail.com','Franje Krežme 3','Rijeka',51000);
+
 
 
 
